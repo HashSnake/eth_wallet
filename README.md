@@ -2,7 +2,8 @@
 ✅ crypto bip39 lib
 
 
-```from eth_wallet import Wallet
+```Python
+from eth_wallet import Wallet
 
 def etherum(seed_phrase):
 	wallet = Wallet()
