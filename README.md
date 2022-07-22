@@ -3,6 +3,7 @@
 
 
 ```from eth_wallet import Wallet
+
 def etherum(seed_phrase):
 	wallet = Wallet()
 	wallet.from_mnemonic(seed_phrase)
@@ -14,3 +15,8 @@ def etherum(seed_phrase):
 	address = wallet.address()
 	priv = wallet.private_key()
 	return address
+
+
+print(etherum("series exact trouble tissue confirm require about pave soap point crisp beach"))
+
+> 0x86c67bcf7FcAE7C714A972c8CC721027D87E138F
